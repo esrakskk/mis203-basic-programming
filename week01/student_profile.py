@@ -1,0 +1,10 @@
+name = input("Enter your name: Esra Kaşık")
+department = input("Enter your department: Management Information Systems ")
+age = input("Enter your age: 23 ")
+career_goal = input("Enter your career goal: Business Analysis ")
+
+print("\n--- Student Profile ---")
+print(f"Name: {name}")
+print(f"Department: {department}")
+print(f"Age: {age}")
+print(f"Career Goal: {career_goal}")
