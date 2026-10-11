@@ -35,4 +35,24 @@
   3. Input: Age 12, weekday, student yes → `Deniz: 120.00 TRY (Child)`
 * **Why does the order of the rules matter?** The rules must be checked in the given order because one customer can meet more than one condition. For example, a 10-year-old student must be classified as Child because the Child rule comes before the Student rule.
 
+## Week 04 - Book Recommendation Program
+### AI Usage
+- **AI Tool Used:** ChatGPT
+- **Purpose:** To get help with the program structure, Python libraries, and code explanations.
+- **What did I change?** I selected the book genres and titles and reviewed the code to understand how the program works.
+
+### Description
+This Python program recommends a random book based on the user's chosen genre. Users can choose from seven genres and request another recommendation or quit the program.
+
+### Libraries Used
+- `random`: Selects a random book from the chosen genre.
+- `time`: Adds a short waiting effect before displaying the recommendation.
+
+### Concepts Used
+- Dictionaries and lists
+- User input
+- `if`, `elif`, and `else`
+- `while` loops
+- `for` loops
+- `break` and `continue`
 
